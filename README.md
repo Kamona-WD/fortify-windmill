@@ -71,7 +71,19 @@ Uncomment this line in `config/fortify.php`.
 
 ## Enable, Disable feature
 
-see [laravel/fortify](https://github.com/laravel/fortify#readme) docs.
+See [laravel/fortify](https://github.com/laravel/fortify#readme) docs. and don't forget to disable, enable views in `app/Providers/FortifyWindmillServiceProvider.php`
+
+## Edit views
+
+Sidebar links `views/partials/sidebar/sidebar-content.blade.php`.
+Sidebar header `views/partials/sidebar/sidebar-header.blade.php`.
+Sidebar footer `views/partials/sidebar/sidebar-footer.blade.php`.
+
+Navbar right links `views/partials/navbar/navbar-links.blade.php`.
+
+Layouts `views/layouts`.
+
+Profile `views/profile/edit.blade.php`.
 
 ### Screenshots
 
