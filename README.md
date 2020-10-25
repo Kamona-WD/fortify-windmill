@@ -1,6 +1,9 @@
 # Didn't published yet.
 
-# Laravel Fortify UI Using Windmill Dashboard
+# UI For Laravel Fortify Using Windmill Dashboard
+
+[![License](https://img.shields.io/github/license/Kamona-WD/fortify-windmill)](https://github.com/Kamona-WD/laravel-windmill-presets/blob/master/LICENSE.md)
+[![License](https://img.shields.io/github/release/Kamona-WD/fortify-windmill)](https://github.com/Kamona-WD/laravel-windmill-presets/releases)
 
 Auth scaffolding for [laravel/fortify](https://github.com/laravel/fortify) using [Windmill-Dashboard](https://github.com/estevanmaito/windmill-dashboard) assets.
 
@@ -21,7 +24,7 @@ IF you want to use [laravel/ui](https://github.com/laravel/ui) check this repo [
    2. Update `Models/User.php`.
    3. Add `FortifyServiceProvider.php`, `FortifyWindmillServiceProvider.php` to `app/Providers` and register them in `config/app.php`.
    4. Add `auth`, `layouts`, `profile` and `home.blade.php` to your `views` path. And also it will update `welcome.blade.php` view.
-   5. Add two-factor migtations.
+   5. Add two-factor migrations.
    6. Add `home`, `profile` route to `routes/web.php`.
       (NOTE: If you run this command several times, be sure to clean up the duplicate Auth entries in `routes/web.php` and run `npm install && npm run dev`)
 4. Run `php artisan migrate`.

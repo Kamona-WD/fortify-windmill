@@ -70,8 +70,8 @@
         <button class="align-middle rounded-full focus:shadow-outline-purple focus:outline-none"
             @click="toggleProfileMenu" @keydown.escape="closeProfileMenu" aria-label="Account" aria-haspopup="true">
             <img class="object-cover w-8 h-8 rounded-full"
-                src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&ixid=eyJhcHBfaWQiOjE3Nzg0fQ"
-                alt="" aria-hidden="true" />
+                src={{ 'https://ui-avatars.com/api/?name=' . auth()->user()->name ?? 'Windmill' . '&color=7F9CF5&background=EBF4FF' }}"
+                alt="{{ auth()->user()->name }}" aria-hidden="true" />
         </button>
         <template x-if="isProfileMenuOpen">
             <ul x-transition:leave="transition ease-in duration-150" x-transition:leave-start="opacity-100"
