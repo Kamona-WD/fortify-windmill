@@ -1,5 +1,3 @@
-# Didn't published yet.
-
 # UI For Laravel Fortify Using Windmill Dashboard
 
 [![License](https://img.shields.io/github/license/Kamona-WD/fortify-windmill)](https://github.com/Kamona-WD/laravel-windmill-presets/blob/master/LICENSE.md)
@@ -33,7 +31,7 @@ IF you want to use [laravel/ui](https://github.com/laravel/ui) check this repo [
 
 ## Note
 
-All Fortify features are enabled by default except emai verification. To enable it edit your `Models/User.php` model
+All Fortify features are enabled by default except email verification. To enable it edit your `Models/User.php` model
 
 ```php
 use Illuminate\Contracts\Auth\MustVerifyEmail;
@@ -76,7 +74,9 @@ See [laravel/fortify](https://github.com/laravel/fortify#readme) docs. and don't
 ## Edit views
 
 Sidebar links `views/partials/sidebar/sidebar-content.blade.php`.
+
 Sidebar header `views/partials/sidebar/sidebar-header.blade.php`.
+
 Sidebar footer `views/partials/sidebar/sidebar-footer.blade.php`.
 
 Navbar right links `views/partials/navbar/navbar-links.blade.php`.
@@ -84,6 +84,12 @@ Navbar right links `views/partials/navbar/navbar-links.blade.php`.
 Layouts `views/layouts`.
 
 Profile `views/profile/edit.blade.php`.
+
+Dashboard `views/home.blade.php`
+
+## Side note
+
+I know my English is horrible so please forgive me. I hope you will understand what I want to say in this read me file
 
 ### Screenshots
 
