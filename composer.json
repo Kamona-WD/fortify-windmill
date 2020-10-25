@@ -1,0 +1,36 @@
+{
+  "name": "kamona/fortify-windmill",
+  "description": "Auth scafolding for laravel/fortify",
+  "keywords": [
+    "laravel",
+    "fortify",
+    "windmill-dashboard",
+    "dashboard",
+    "tailwindcss"
+  ],
+  "homepage": "https://github.com/Kamona-WD/fortify-windmill",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kamona",
+      "email": "ak3849909@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "laravel/fortify": "^1.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "FortifyWindmill\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "FortifyWindmill\\FortifyWindmillServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev"
+}
