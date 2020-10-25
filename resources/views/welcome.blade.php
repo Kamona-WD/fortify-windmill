@@ -56,7 +56,7 @@
                                         title="Windmill">Windmill</a>
                                 </li>
                                 <li>
-                                    <a href="https://github.com/Kamona-WD/fortify-windmill-ui"
+                                    <a href="https://github.com/Kamona-WD/fortify-windmill"
                                         class="no-underline hover:underline text-sm font-normal text-teal-800 dark:text-gray-300 uppercase"
                                         title="Fortify-Windmil">Fortify Windmill</a>
                                 </li>
