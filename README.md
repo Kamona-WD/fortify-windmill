@@ -15,7 +15,7 @@ IF you want to use [laravel/ui](https://github.com/laravel/ui) check this repo [
 
 1. Fresh install Laravel >= 8.0 and `cd` to your app.
 2. Install this preset via `composer require kamona/fortify-windmill`. Laravel will automatically discover this package. No need to register the service provider,
-   And also no need to install `laravel/fortify` it will be installed autmaticly.
+   And also no need to install `laravel/fortify` it will be installed automatically.
 
 3. Use `php artisan fortmill:install` this will.
    1. Update your `package.json`, `webpack-mix.js`, add `tailwind.config.js` to your project
