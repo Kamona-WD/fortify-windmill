@@ -1,6 +1,6 @@
 # UI For Laravel Fortify Using Windmill Dashboard
 
-[![License](https://img.shields.io/github/license/Kamona-WD/fortify-windmill)](https://github.com/Kamona-WD/fortify-windmill/blob/main/LICENSE)
+[![License](https://img.shields.io/github/license/Kamona-WD/fortify-windmill)](https://github.com/Kamona-WD/fortify-windmill/blob/main/LICENSE.md)
 [![Release](https://img.shields.io/github/release/Kamona-WD/fortify-windmill)](https://github.com/Kamona-WD/fortify-windmill/releases)
 
 Auth scaffolding for [laravel/fortify](https://github.com/laravel/fortify) using [Windmill-Dashboard](https://github.com/estevanmaito/windmill-dashboard) assets.
@@ -89,7 +89,7 @@ Dashboard `views/home.blade.php`
 
 ## Side note
 
-I know my English is horrible so please forgive me. I hope you will understand what I want to say in this read me file
+I know my English is horrible so please forgive me. I hope you will understand what I want to say in this read me file.
 
 ### Screenshots
 
