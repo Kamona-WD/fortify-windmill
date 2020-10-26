@@ -18,12 +18,6 @@ IF you want to use [laravel/ui](https://github.com/laravel/ui) check this repo [
    And also no need to install `laravel/fortify` it will be installed automatically.
 
 3. Use `php artisan fortmill:install` this will.
-   1. Update your `package.json`, `webpack-mix.js`, add `tailwind.config.js` to your project
-   2. Update `Models/User.php`.
-   3. Add `FortifyServiceProvider.php`, `FortifyWindmillServiceProvider.php` to `app/Providers` and register them in `config/app.php`.
-   4. Add `auth`, `layouts`, `profile` and `home.blade.php` to your `views` path. And also it will update `welcome.blade.php` view.
-   5. Add two-factor migrations.
-   6. Add `home`, `profile` route to `routes/web.php`.
       (NOTE: If you run this command several times, be sure to clean up the duplicate Auth entries in `routes/web.php` and run `npm install && npm run dev`)
 4. Run `php artisan migrate`.
 5. `npm install && npm run dev`
