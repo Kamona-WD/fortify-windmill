@@ -19,9 +19,10 @@ IF you want to use [laravel/ui](https://github.com/laravel/ui) check this repo [
 
 3. Use `php artisan fortmill:install`.
       (NOTE: If you run this command several times, be sure to clean up the duplicate Auth entries in `routes/web.php` and run `npm install && npm run dev`)
-4. Run `php artisan migrate`.
-5. `npm install && npm run dev`
-6. `php artisan serve`
+4. Configure your favorite database (mysql, sqlite etc.)
+5. Run `php artisan migrate`.
+6. `npm install && npm run dev`
+7. `php artisan serve`
 
 ## Note
 
