@@ -17,7 +17,7 @@ IF you want to use [laravel/ui](https://github.com/laravel/ui) check this repo [
 2. Install this preset via `composer require kamona/fortify-windmill`. Laravel will automatically discover this package. No need to register the service provider,
    And also no need to install `laravel/fortify` it will be installed automatically.
 
-3. Use `php artisan fortmill:install` this will.
+3. Use `php artisan fortmill:install`.
       (NOTE: If you run this command several times, be sure to clean up the duplicate Auth entries in `routes/web.php` and run `npm install && npm run dev`)
 4. Run `php artisan migrate`.
 5. `npm install && npm run dev`
