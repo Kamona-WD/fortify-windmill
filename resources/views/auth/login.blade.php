@@ -15,6 +15,16 @@
     {{ __('Login') }}
 @endsection
 
+@section('message')
+    @if (session('status'))
+        <div class="text-sm border-t-8 rounded-t text-gray-700 text-gray-100 border-purple-600 bg-purple-100 px-3 py-4"
+            role="alert">
+            {{ session('status') }}
+        </div>
+    @endif
+
+@endsection
+
 @section('form')
     <form action="{{ route('login') }}" method="POST">
         @csrf
