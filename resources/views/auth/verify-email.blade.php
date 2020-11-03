@@ -17,7 +17,7 @@
 @endsection
 
 @section('message')
-    @if (session('resent'))
+    @if (session('status'))
         <div class="text-sm border-t-8 rounded-t text-gray-700 text-gray-100 border-purple-600 bg-purple-100 px-3 py-4"
             role="alert">
             {{ __('A fresh verification link has been sent to your email address.') }}
@@ -39,7 +39,7 @@
                 onclick="event.preventDefault(); document.getElementById('resend-verification-form').submit();">{{ __('click here to request another') }}</a>.
         </p>
 
-        <form id="resend-verification-form" method="POST" action="{{ route('password.email') }}" class="hidden">
+        <form id="resend-verification-form" method="POST" action="{{ route('verification.send') }}" class="hidden">
             @csrf
         </form>
     </div>
