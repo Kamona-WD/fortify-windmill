@@ -18,10 +18,10 @@
 @section('form')
     <form action="{{ route('password.update') }}" method="POST">
         @csrf
-        <input type="hidden" name="token" value="{{ $token }}">
+        <input type="hidden" name="token" value="{{ request()->route('token') }}">
         <label class="block text-sm">
             <span class="text-gray-700 dark:text-gray-400">{{ __('E-Mail Address') }}</span>
-            <input type="email" name="email" value="{{ $email ?? old('email') }}" required autocomplete="email" autofocus
+            <input type="email" name="email" value="{{ $request->email ?? old('email') }}" required autocomplete="email" autofocus
                 class="block w-full mt-1 text-sm dark:border-gray-600 dark:bg-gray-700 @error('email') border-red-500 @enderror focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 dark:focus:shadow-outline-gray form-input"
                 placeholder="{{ __('Email') }}" />
         </label>
