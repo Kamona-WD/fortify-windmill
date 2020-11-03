@@ -25,7 +25,7 @@
 </head>
 
 <body>
-    @if (session('status'))
+    @if (session('status') || request()->query('verified'))
         <div x-data="{alert: true}" x-show="alert" class="fixed z-30 top-5 left-5">
             <div x-show="alert" @click.away="alert = false"
                 class="border-green-600 bg-green-200  border-t-4 text-green-600 rounded px-4 py-3 shadow-md"
@@ -36,7 +36,7 @@
                     <div>
                         <p class="font-bold">{{ __('Alert') }}</p>
                         <p class="text-sm">
-                            {{ session('status') }}
+                            {{ request()->query('verified') ? __('Email verified') : session('status') }}
                         </p>
                     </div>
                     <button @click="alert = false" class="flex items-start focus:outline-none">
