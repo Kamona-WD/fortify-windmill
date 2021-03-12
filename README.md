@@ -83,9 +83,7 @@ Profile `views/profile/edit.blade.php`.
 
 Dashboard `views/home.blade.php`
 
-## Side note
 
-I know my English is horrible so please forgive me. I hope you will understand what I want to say in this read me file.
 
 ### Screenshots
 
